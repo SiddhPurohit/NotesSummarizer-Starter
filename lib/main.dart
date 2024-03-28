@@ -23,7 +23,7 @@ class RootApp extends StatelessWidget {
           background: Color(0xFF121212),
         )
       ),
-      home: const EditPage(id: ''),
+      home: const HomePage(),
     );
   }
 }
