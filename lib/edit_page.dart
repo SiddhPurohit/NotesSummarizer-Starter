@@ -229,28 +229,30 @@ class _EditPageState extends State<EditPage> {
                           color: Colors.white,
                         )
                       : Container(),
-                  _summary.isNotEmpty
-                      ? SizedBox(
-                          height: MediaQuery.of(context).size.height * 0.2,
-                          child: ListView(
-                            children: [
-                              Padding(
-                                padding: const EdgeInsets.all(16.0),
-                                child: MarkdownBody(
-                                  data: _summary,
-                                  styleSheet: MarkdownStyleSheet(
-                                    p: const TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.w400,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        )
-                      : const SizedBox(),
+                  // _summary.isNotEmpty
+                  //     ? SizedBox(
+                  //         height: MediaQuery.of(context).size.height * 0.2,
+                  //         child: ListView(
+                  //           children: [
+                  //             Padding(
+                  //               padding: const EdgeInsets.all(16.0),
+                  //               child: MarkdownBody(
+                  //                 data: _summary,
+                  //                 styleSheet: MarkdownStyleSheet(
+                  //                   p: const TextStyle(
+                  //                     color: Colors.white,
+                  //                     fontSize: 18,
+                  //                     fontWeight: FontWeight.w400,
+                  //                   ),
+                  //                 ),
+                  //               ),
+                  //             ),
+                  //           ],
+                  //         ),
+                  //       )
+                  //     :
+                    const SizedBox(),
+
                 ],
               ),
             ),
